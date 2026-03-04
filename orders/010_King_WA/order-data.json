@@ -1,0 +1,124 @@
+{
+  "orderId": "f13e0c71-c427-4fdd-b786-95c8695619a6",
+  "address": "3055 17Th St Se, Auburn, WA 98092",
+  "county": "King",
+  "state": "WA",
+  "status": "completed",
+  "recommendation": "CONSIDER_APPEAL",
+  "packetType": "full",
+  "valuation": {
+    "_apiCosts": {
+      "reapi": 0.4,
+      "total": 0.4,
+      "quantarium": 0
+    },
+    "medianPsf": 438,
+    "packetType": "full",
+    "searchTier": "RELAXED",
+    "_dataSource": "reapi",
+    "avmEstimate": 447674,
+    "avmRangeLow": 402907,
+    "marketValue": 447674,
+    "medianPrice": 490000,
+    "avmRangeHigh": 492441,
+    "opusAnalysis": {
+      "confidence": "HIGH",
+      "ratioCheck": {
+        "confirmed": true,
+        "difference": 0,
+        "opusConfirmed": true,
+        "registryRatio": 100,
+        "searchedRatio": 100,
+        "registrySource": "https://dor.wa.gov/taxes-rates/property-tax",
+        "discrepancyNote": null,
+        "isCountyOverride": false
+      },
+      "recommendation": "CONSIDER_APPEAL",
+      "assessmentRatio": 1,
+      "countyAppraisedValue": 445000,
+      "marketValueFromComps": 447674,
+      "overassessmentAmount": -2674,
+      "potentialAnnualSavings": 0
+    },
+    "assessedValue": 445000,
+    "confidenceGate": {
+      "gates": [
+        {
+          "check": "PSF_OUTLIERS_DETECTED",
+          "passed": false,
+          "message": "2 comp(s) outside IQR fences ($332-$532/sqft): 1613 36th St Se @ $538/sqft, 150 R St Se @ $313/sqft",
+          "severity": "WARNING"
+        }
+      ],
+      "passed": true,
+      "reason": "2 comp(s) outside IQR fences ($332-$532/sqft): 1613 36th St Se @ $538/sqft, 150 R St Se @ $313/sqft",
+      "confidence": "MODERATE",
+      "gateAction": "PROCEED",
+      "warningCount": 1,
+      "criticalCount": 0
+    },
+    "isOverassessed": false,
+    "searchMetadata": {
+      "tierName": "RELAXED",
+      "compsFound": 10,
+      "isIdealData": false,
+      "outlierNote": null,
+      "radiusMiles": 1.5,
+      "confidenceGate": {
+        "gates": [
+          {
+            "check": "PSF_OUTLIERS_DETECTED",
+            "passed": false,
+            "message": "2 comp(s) outside IQR fences ($332-$532/sqft): 1613 36th St Se @ $538/sqft, 150 R St Se @ $313/sqft",
+            "severity": "WARNING"
+          }
+        ],
+        "passed": true,
+        "reason": "2 comp(s) outside IQR fences ($332-$532/sqft): 1613 36th St Se @ $538/sqft, 150 R St Se @ $313/sqft",
+        "confidence": "MODERATE",
+        "gateAction": "PROCEED",
+        "warningCount": 1,
+        "criticalCount": 0
+      },
+      "monthsSearched": 18,
+      "dataQualityNote": "Search expanded to broader search of comparable homes.",
+      "outliersRemoved": 2,
+      "tierDescription": "Broader search of comparable homes",
+      "isExpandedSearch": true
+    },
+    "valuationMethod": "psf_25th_percentile",
+    "groundingQuality": "none",
+    "impliedFairValue": 447674,
+    "_quantariumCalled": false,
+    "medianPricePerSqft": 438,
+    "valuationPercentile": 25,
+    "countyAppraisedValue": 445000,
+    "overassessmentAmount": -2674,
+    "_preFilterMarketValue": 446647,
+    "_quantariumCompsAdded": 0,
+    "valuationPricePerSqft": 407,
+    "potentialAnnualSavings": 0
+  },
+  "assessment": {
+    "year": 2024,
+    "history": {},
+    "_provider": "reapi",
+    "annualTax": 5298.03,
+    "landValue": 140000,
+    "taxHistory": {},
+    "totalValue": 445000,
+    "_rawAssessedValue": 445000,
+    "countyMarketValue": 445000,
+    "improvementsValue": 305000,
+    "_marketValueSource": "marketValue",
+    "_reapiEstimatedValue": 523000
+  },
+  "compsCount": 9,
+  "docUrls": {
+    "coverLetter": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/f13e0c71-c427-4fdd-b786-95c8695619a6/3_ATTACH_TO_APPEAL_Cover_Letter.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2YxM2UwYzcxLWM0MjctNGZkZC1iNzg2LTk1Yzg2OTU2MTlhNi8zX0FUVEFDSF9UT19BUFBFQUxfQ292ZXJfTGV0dGVyLnBkZiIsImlhdCI6MTc3MjY2MzgwNCwiZXhwIjoxNzc1MjU1ODA0fQ.XgLfZDkyqpk5xyRl4ASfokuSogNUUw68t3LOhraRkE8",
+    "filingGuide": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/f13e0c71-c427-4fdd-b786-95c8695619a6/1_READ_FIRST_Your_Filing_Guide.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2YxM2UwYzcxLWM0MjctNGZkZC1iNzg2LTk1Yzg2OTU2MTlhNi8xX1JFQURfRklSU1RfWW91cl9GaWxpbmdfR3VpZGUucGRmIiwiaWF0IjoxNzcyNjYzODA0LCJleHAiOjE3NzUyNTU4MDR9.cTlLYL2ndPjMkD3h6twJSV1ombhEpuC7ihhKafkpaL8",
+    "savingsGuide": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/f13e0c71-c427-4fdd-b786-95c8695619a6/5_BONUS_Homeowner_Savings_Guide.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2YxM2UwYzcxLWM0MjctNGZkZC1iNzg2LTk1Yzg2OTU2MTlhNi81X0JPTlVTX0hvbWVvd25lcl9TYXZpbmdzX0d1aWRlLnBkZiIsImlhdCI6MTc3MjY2MzgwNCwiZXhwIjoxNzc1MjU1ODA0fQ.Es0UYgS_lvKiNDd3-IL4y16ril7hDnTH2pQ6FM4KE10",
+    "evidencePacket": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/f13e0c71-c427-4fdd-b786-95c8695619a6/2_ATTACH_TO_APPEAL_Evidence_Packet.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2YxM2UwYzcxLWM0MjctNGZkZC1iNzg2LTk1Yzg2OTU2MTlhNi8yX0FUVEFDSF9UT19BUFBFQUxfRXZpZGVuY2VfUGFja2V0LnBkZiIsImlhdCI6MTc3MjY2MzgwNCwiZXhwIjoxNzc1MjU1ODA0fQ.AZu205a-D0XXa-GCbLfZOl9MYm2ZTTOhzi7cx9iKR2g"
+  },
+  "generationTimeMs": 39165
+}

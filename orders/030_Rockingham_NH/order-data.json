@@ -1,0 +1,108 @@
+{
+  "orderId": "c4321c4b-8cec-4c38-94d1-f6c9a0639ca0",
+  "address": "36 Richards Ave, Portsmouth, NH 03801",
+  "county": "Rockingham",
+  "state": "NH",
+  "status": "do_not_appeal",
+  "recommendation": "DO_NOT_APPEAL",
+  "packetType": "do_not_appeal",
+  "valuation": {
+    "_apiCosts": {
+      "reapi": 0.4,
+      "total": 0.4,
+      "quantarium": 0
+    },
+    "medianPsf": 508,
+    "packetType": "do_not_appeal",
+    "searchTier": "EXPANDED",
+    "_dataSource": "reapi",
+    "avmEstimate": 1202789,
+    "avmRangeLow": 1082510,
+    "marketValue": 1202789,
+    "medianPrice": 1325000,
+    "avmRangeHigh": 1323068,
+    "opusAnalysis": {
+      "confidence": "HIGH",
+      "ratioCheck": {
+        "confirmed": true,
+        "difference": 0,
+        "opusConfirmed": true,
+        "registryRatio": 100,
+        "searchedRatio": 100,
+        "registrySource": "https://www.revenue.nh.gov/mun-prop/property/index.htm",
+        "discrepancyNote": null,
+        "isCountyOverride": false
+      },
+      "recommendation": "DO_NOT_APPEAL",
+      "assessmentRatio": 1,
+      "countyAppraisedValue": 1009000,
+      "marketValueFromComps": 1202789,
+      "overassessmentAmount": -193789,
+      "potentialAnnualSavings": 0
+    },
+    "assessedValue": 772100,
+    "confidenceGate": {
+      "gates": [],
+      "passed": true,
+      "reason": "All confidence checks passed",
+      "confidence": "HIGH",
+      "gateAction": "PROCEED",
+      "warningCount": 0,
+      "criticalCount": 0
+    },
+    "isOverassessed": false,
+    "searchMetadata": {
+      "tierName": "EXPANDED",
+      "compsFound": 3,
+      "isIdealData": false,
+      "outlierNote": null,
+      "radiusMiles": 0.5,
+      "confidenceGate": {
+        "gates": [],
+        "passed": true,
+        "reason": "All confidence checks passed",
+        "confidence": "HIGH",
+        "gateAction": "PROCEED",
+        "warningCount": 0,
+        "criticalCount": 0
+      },
+      "monthsSearched": 12,
+      "dataQualityNote": "Search expanded to recent sales of similar homes in area.",
+      "outliersRemoved": 0,
+      "tierDescription": "Recent sales of similar homes in area",
+      "isExpandedSearch": true
+    },
+    "valuationMethod": "psf_25th_percentile",
+    "groundingQuality": "none",
+    "impliedFairValue": 1202789,
+    "_quantariumCalled": false,
+    "medianPricePerSqft": 508,
+    "valuationPercentile": 25,
+    "countyAppraisedValue": 1009000,
+    "overassessmentAmount": -193789,
+    "_quantariumCompsAdded": 0,
+    "valuationPricePerSqft": 445,
+    "potentialAnnualSavings": 0
+  },
+  "assessment": {
+    "year": 2024,
+    "history": {},
+    "_provider": "reapi",
+    "annualTax": 8632,
+    "landValue": 461000,
+    "taxHistory": {},
+    "totalValue": 772100,
+    "_rawAssessedValue": 772100,
+    "countyMarketValue": 1009000,
+    "improvementsValue": 311100,
+    "_marketValueSource": "estimatedValue",
+    "_reapiEstimatedValue": 1009000
+  },
+  "compsCount": 3,
+  "docUrls": {
+    "savingsGuide": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/c4321c4b-8cec-4c38-94d1-f6c9a0639ca0/3_Homeowner_Savings_Guide.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2M0MzIxYzRiLThjZWMtNGMzOC05NGQxLWY2YzlhMDYzOWNhMC8zX0hvbWVvd25lcl9TYXZpbmdzX0d1aWRlLnBkZiIsImlhdCI6MTc3MjY2NjU3MCwiZXhwIjoxNzc1MjU4NTcwfQ.0vndPc2nOlkAUVcmaPSTQA7Q28qe284unyOoHDWWML4",
+    "evidencePacket": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/c4321c4b-8cec-4c38-94d1-f6c9a0639ca0/1_Your_Evidence_Packet.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2M0MzIxYzRiLThjZWMtNGMzOC05NGQxLWY2YzlhMDYzOWNhMC8xX1lvdXJfRXZpZGVuY2VfUGFja2V0LnBkZiIsImlhdCI6MTc3MjY2NjU3MCwiZXhwIjoxNzc1MjU4NTcwfQ.P2GUBg2nR8Kngomeh7d3U5MinJXhY0_LzwARe4WaaWg",
+    "analysisSummary": "https://iyfuxdiufpbmcdblniai.supabase.co/storage/v1/object/sign/packets/c4321c4b-8cec-4c38-94d1-f6c9a0639ca0/2_Your_Analysis_Summary.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV83MGEzNmI2ZS0zYjU4LTQ2YmItOTRmYy1iNzMzMTNlZjJhYjQiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwYWNrZXRzL2M0MzIxYzRiLThjZWMtNGMzOC05NGQxLWY2YzlhMDYzOWNhMC8yX1lvdXJfQW5hbHlzaXNfU3VtbWFyeS5wZGYiLCJpYXQiOjE3NzI2NjY1NzAsImV4cCI6MTc3NTI1ODU3MH0.G_IdNWCIX01i20Vl3L3ezCpHgt_Gc5wV6VHrtIuehpU"
+  },
+  "generationTimeMs": 43520
+}
